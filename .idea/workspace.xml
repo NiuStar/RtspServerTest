@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="460614ea-68ad-410f-b0ab-3df43ad16ff9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-    </list>
+    <list default="true" id="460614ea-68ad-410f-b0ab-3df43ad16ff9" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,7 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="444">
@@ -36,13 +34,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rtsp_server.go" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rtsp_server.go" pinned="false" current-in-tab="true">
         <entry file="file:///Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/rtsp/rtsp_server.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            <state relative-caret-position="168">
+              <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
-                <element signature="e#14#89#0" expanded="true" />
+                <element signature="e#14#59#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,11 +132,11 @@
       <find>manager =</find>
       <find>RtspClientConnection</find>
       <find>NewRtspConnection</find>
-      <find>header[0]</find>
       <find>conn.client.PushLayer()</find>
       <find>PLAYDATA</find>
       <find>ReadData</find>
       <find>TEARDOWN</find>
+      <find>header[0]</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -157,13 +155,13 @@
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/html/websocket.html" />
         <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/Session/session.go" />
-        <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/rtsp/rtsp_server.go" />
         <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/stream_server/stream_server.go" />
         <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/RtspClientManager/Managers.go" />
         <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/RtspClientManager/ClientManager.go" />
         <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/rtsp/rtsp_client_conn.go" />
         <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/RtspClientManager/client.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="/Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/rtsp/rtsp_server.go" />
       </list>
     </option>
   </component>
@@ -422,12 +420,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515723262527</updated>
-      <workItem from="1515723266774" duration="6498000" />
+      <workItem from="1515723266774" duration="6843000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6498000" />
+    <option name="totallyTimeSpent" value="6843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="252" y="43" width="1400" height="941" extended-state="0" />
@@ -562,9 +560,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="219">
           <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding>
-            <element signature="e#17#74#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -582,16 +578,6 @@
           <caret line="34" column="23" lean-forward="false" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding>
             <element signature="e#27#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/rtsp/rtsp_server.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-          <folding>
-            <element signature="e#14#89#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -658,6 +644,16 @@
           <caret line="54" column="39" lean-forward="false" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
             <element signature="e#14#194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Volumes/macApplication/go_work/src/nqc.cn/XRtspServer/rtsp/rtsp_server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#14#59#0" expanded="true" />
           </folding>
         </state>
       </provider>
