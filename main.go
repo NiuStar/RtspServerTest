@@ -14,8 +14,16 @@ var rtspServer *rtsp.RtspServer
 func main() {
 
 
+
 	s := stream_server.NewStreamServer(":8554")
 
+	ser := server.Default()//服务器初始化
+	ser.GET("getRtspList",getRtspList)
+	ser.GET("getUserList",getUserList)
+
+
+	s.Wrap(ser.RunServer)
+	
 
 	var err error
 	rtspServer, err = s.NewRtspServer()
@@ -26,12 +34,7 @@ func main() {
 
 	s.Run(rtspServer)
 
-	ser := server.Default()//服务器初始化
-	ser.GET("getRtspList",getRtspList)
-	ser.GET("getUserList",getUserList)
 
-
-	s.Wrap(ser.RunServer)
 
 }
 
