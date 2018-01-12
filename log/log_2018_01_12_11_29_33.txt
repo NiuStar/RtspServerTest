@@ -1,0 +1,347 @@
+path:   ./config.json
+exec: "cmd.exe": executable file not found in $PATH
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:33[[go in AddService ] 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:33[[AddService :  getRtspList 0x15d7d30] 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:33[[go in AddService ] 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:33[[AddService :  getUserList 0x15d7de0] 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+进入log
+RTSP Listen on [::]:8554
+文件Over
+1
+2
+:8000
+123456
+sessionManager-----> &{goSession {{0 0} 0 0 0 0} 3600 map[]}
+address:  :8000
+s &{0xc42000e5a8 0xc420176e60}
+manager &{map[] 0xc4200745a0}
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:42[
+[c :: {"post":"","url":"/getUserList"}]
+[c.ws == nil]
+[Context_Darwin]
+[StringOver] 
+ 该请求服务器处理时间为： 0.00023684 s，开始时间： 2018-01-12 11:29:42 结束时间: 2018-01-12 11:29:42 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+s &{0xc42000e5a8 0xc420176e60}
+manager &{map[] 0xc4200745a0}
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:50[
+[c :: {"post":"","url":"/getUserList"}]
+[c.ws == nil]
+[Context_Darwin]
+[StringOver] 
+ 该请求服务器处理时间为： 9.384e-05 s，开始时间： 2018-01-12 11:29:50 结束时间: 2018-01-12 11:29:50 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+s &{0xc42000e5a8 0xc420176e60}
+manager &{map[] 0xc4200745a0}
+
+/***********************------------------------------------------------------------------------------------------------------------------------
+2018-01-12 11:29:52[
+[c :: {"post":"","url":"/getUserList"}]
+[c.ws == nil]
+[Context_Darwin]
+[StringOver] 
+ 该请求服务器处理时间为： 0.000128503 s，开始时间： 2018-01-12 11:29:52 结束时间: 2018-01-12 11:29:52 
+] 
+------------------------------------------------------------------------------------------------------------------------***********************/
+有新连接来了
+------ rtsp client connection[127.0.0.1:63105] : handling ------
+读取数据中
+读取数据结束
+buffer: OPTIONS rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+CSeq: 1
+User-Agent: Lavf57.83.100
+
+
+no err OPTIONS rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Cseq: 1
+User-Agent: Lavf57.83.100
+
+
+------ rtsp client connection[127.0.0.1:63105] : get request ------ 
+OPTIONS rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+User-Agent: Lavf57.83.100
+Cseq: 1
+
+
+------ Session[127.0.0.1:63105] : set response ------ 
+RTSP/1.0 200 OK
+CSeq: 1
+Public: OPTIONS, DESCRIBE, SETUP, PLAY, TEARDOWN, RECORD
+
+
+Player 
+读取数据中
+读取数据结束
+buffer: ANNOUNCE rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Content-Type: application/sdp
+CSeq: 2
+User-Agent: Lavf57.83.100
+Content-Length: 478
+
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 57.83.100
+m=video 0 RTP/AVP 96
+b=AS:1187
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1; sprop-parameter-sets=J2QAH6xWwIgeaagICAgQ,KO48sA==; profile-level-id=64001F
+a=control:streamid=0
+m=audio 0 RTP/AVP 97
+b=AS:46
+a=rtpmap:97 MPEG4-GENERIC/44100/1
+a=fmtp:97 profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3; config=1208
+a=control:streamid=1
+
+no err ANNOUNCE rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Content-Type: application/sdp
+Cseq: 2
+User-Agent: Lavf57.83.100
+Content-Length: 478
+
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 57.83.100
+m=video 0 RTP/AVP 96
+b=AS:1187
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1; sprop-parameter-sets=J2QAH6xWwIgeaagICAgQ,KO48sA==; profile-level-id=64001F
+a=control:streamid=0
+m=audio 0 RTP/AVP 97
+b=AS:46
+a=rtpmap:97 MPEG4-GENERIC/44100/1
+a=fmtp:97 profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3; config=1208
+a=control:streamid=1
+
+,req.Content :  ANNOUNCE rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Content-Type: application/sdp
+CSeq: 2
+User-Agent: Lavf57.83.100
+Content-Length: 478
+
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 57.83.100
+m=video 0 RTP/AVP 96
+b=AS:1187
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1; sprop-parameter-sets=J2QAH6xWwIgeaagICAgQ,KO48sA==; profile-level-id=64001F
+a=control:streamid=0
+m=audio 0 RTP/AVP 97
+b=AS:46
+a=rtpmap:97 MPEG4-GENERIC/44100/1
+a=fmtp:97 profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3; config=1208
+a=control:streamid=1
+
+------conn.pushClient = true---------- ------ rtsp client connection[127.0.0.1:63105] : get request ------ 
+ANNOUNCE rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Content-Type: application/sdp
+Cseq: 2
+User-Agent: Lavf57.83.100
+Content-Length: 478
+
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 57.83.100
+m=video 0 RTP/AVP 96
+b=AS:1187
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1; sprop-parameter-sets=J2QAH6xWwIgeaagICAgQ,KO48sA==; profile-level-id=64001F
+a=control:streamid=0
+m=audio 0 RTP/AVP 97
+b=AS:46
+a=rtpmap:97 MPEG4-GENERIC/44100/1
+a=fmtp:97 profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3; config=1208
+a=control:streamid=1
+
+------ Session[127.0.0.1:63105] : set response ------ 
+RTSP/1.0 200 OK
+CSeq: 2
+
+
+Player 
+读取数据中
+读取数据结束
+buffer: SETUP rtsp://127.0.0.1:8554/1.sdp/streamid=0 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=21754-21755;mode=record
+CSeq: 3
+User-Agent: Lavf57.83.100
+
+
+no err SETUP rtsp://127.0.0.1:8554/1.sdp/streamid=0 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=21754-21755;mode=record
+Cseq: 3
+User-Agent: Lavf57.83.100
+
+
+------ rtsp client connection[127.0.0.1:63105] : get request ------ 
+SETUP rtsp://127.0.0.1:8554/1.sdp/streamid=0 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=21754-21755;mode=record
+Cseq: 3
+User-Agent: Lavf57.83.100
+
+
+------ Session[127.0.0.1:63105] : set response ------ 
+RTSP/1.0 200 OK
+Session: 1
+Server: XVideoStreamServer
+Cache-Control: no-cache
+CSeq: 3
+Transport: RTP/AVP/UDP;unicast;client_port=21754-21755;mode=record
+
+
+Player 
+读取数据中
+读取数据结束
+buffer: SETUP rtsp://127.0.0.1:8554/1.sdp/streamid=1 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=21756-21757;mode=record
+CSeq: 4
+User-Agent: Lavf57.83.100
+Session: 1
+
+
+no err SETUP rtsp://127.0.0.1:8554/1.sdp/streamid=1 RTSP/1.0
+Cseq: 4
+User-Agent: Lavf57.83.100
+Session: 1
+Transport: RTP/AVP/UDP;unicast;client_port=21756-21757;mode=record
+
+
+------ rtsp client connection[127.0.0.1:63105] : get request ------ 
+SETUP rtsp://127.0.0.1:8554/1.sdp/streamid=1 RTSP/1.0
+Transport: RTP/AVP/UDP;unicast;client_port=21756-21757;mode=record
+Cseq: 4
+User-Agent: Lavf57.83.100
+Session: 1
+
+
+------ Session[127.0.0.1:63105] : set response ------ 
+RTSP/1.0 200 OK
+CSeq: 4
+Transport: RTP/AVP/UDP;unicast;client_port=21756-21757;mode=record
+Session: 1
+Server: XVideoStreamServer
+Cache-Control: no-cache
+
+
+Player 
+读取数据中
+读取数据结束
+buffer: RECORD rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Range: npt=0.000-
+CSeq: 5
+User-Agent: Lavf57.83.100
+Session: 1
+
+
+no err RECORD rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Range: npt=0.000-
+Cseq: 5
+User-Agent: Lavf57.83.100
+Session: 1
+
+
+------conn.client.PushLayer()---------- ------ rtsp client connection[127.0.0.1:63105] : get request ------ 
+RECORD rtsp://127.0.0.1:8554/1.sdp RTSP/1.0
+Cseq: 5
+User-Agent: Lavf57.83.100
+Session: 1
+Range: npt=0.000-
+
+
+------ Session[127.0.0.1:63105] : set response ------ 
+RTSP/1.0 200 OK
+Rtp-Info: url=rtsp://127.0.0.1:8554/1.sdp/streamid=0
+CSeq: 5
+Session: 1
+
+
+header[0] != 36
+desync strange data repair TEAR [84 69 65 82]
+header[0] != 36
+desync strange data repair DOWN [68 79 87 78]
+header[0] != 36
+desync strange data repair  rts [32 114 116 115]
+header[0] != 36
+desync strange data repair p:// [112 58 47 47]
+header[0] != 36
+desync strange data repair 127. [49 50 55 46]
+header[0] != 36
+desync strange data repair 0.0. [48 46 48 46]
+header[0] != 36
+desync strange data repair 1:85 [49 58 56 53]
+header[0] != 36
+desync strange data repair 54/1 [53 52 47 49]
+header[0] != 36
+desync strange data repair .sdp [46 115 100 112]
+header[0] != 36
+desync strange data repair  RTS [32 82 84 83]
+header[0] != 36
+desync strange data repair P/1. [80 47 49 46]
+header[0] != 36
+desync strange data repair 0
+C [48 13 10 67]
+header[0] != 36
+desync strange data repair Seq: [83 101 113 58]
+header[0] != 36
+desync strange data repair  6
+ [32 54 13 10]
+header[0] != 36
+desync strange data repair User [85 115 101 114]
+header[0] != 36
+desync strange data repair -Age [45 65 103 101]
+header[0] != 36
+desync strange data repair nt:  [110 116 58 32]
+header[0] != 36
+desync strange data repair Lavf [76 97 118 102]
+header[0] != 36
+desync strange data repair 57.8 [53 55 46 56]
+header[0] != 36
+desync strange data repair 3.10 [51 46 49 48]
+header[0] != 36
+desync strange data repair 0
+S [48 13 10 83]
+header[0] != 36
+desync strange data repair essi [101 115 115 105]
+header[0] != 36
+desync strange data repair on:  [111 110 58 32]
+header[0] != 36
+desync strange data repair 1
+ [49 13 10 13]
+read header error unexpected EOF
+Exit signals by rtsp
+------ Session[127.0.0.1:63105] : closed ------
+程序被外界关闭，信号量为： interrupt

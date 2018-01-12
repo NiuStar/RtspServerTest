@@ -1,0 +1,19 @@
+{
+	"DEBUG":true,
+	"sql":{
+		"name":"root",
+		"password":"root",
+		"ip":"192.168.1.12",
+		"port":"3306",
+		"table":"test"
+	},
+	"port":"8000",
+	"tls":false,
+	"language":"zh-cn",
+	"tlsCert":{
+		"key":"server.key",
+		"cert":"server.crt"
+	},
+	"FileList":["upload","html"],
+	"fileName":"RtspServerTest.exe"
+}
